@@ -1,0 +1,10 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.invalid-feedback {
+	@apply text-sm text-red-400 font-semibold;
+}

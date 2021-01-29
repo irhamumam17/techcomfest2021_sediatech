@@ -1,0 +1,53 @@
+* [33me95e221[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m try animation with framer motion in home , and install package tippyjs react
+* [33maae8c39[m admin can create read and delete recruiter
+* [33me9620c3[m student can read, create, update , delete product in dashboard studen
+* [33me675951[m add framer motion library
+* [33m8128b15[m add library tippy.js
+* [33me9c05c3[m set icon in each dashboard , fix bugs , and fix check context for not redirect in path dashboard
+* [33m703dd51[m student can do exam and submit exam
+* [33m90ea547[m teacher can see list exam and can delete them
+* [33m6f0e7b3[m[33m ([m[1;33mtag: push.4[m[33m, [m[1;31morigin/main[m[33m)[m teacher can destroy tryout
+* [33ma9e073b[m teacher can create new tryout
+* [33med3db78[m can create lesson schedule and display it in dashboard school
+* [33m5d7fa1a[m display list subjects in dashboard student
+* [33m0f2336c[m can add announcement and display it them in dashboard teacher
+* [33m5f566c1[m[33m ([m[1;33mtag: push.3[m[33m)[m create addbook , add borrow , display book and borrow in library.dashboard teacher
+* [33m634a656[m can add new book and display in dashboard teacher
+* [33m84207e4[m create tables for payment, can create and display list in dashboard teacher
+* [33mad7ea2e[m display detail theory and duty in dashboard student
+* [33m4d0ba5d[m display list theories and duties in dashboard student
+* [33m134ed0d[m can add duties , delete it, and display detail duty
+* [33md915bb9[m display detail theory and can delete theory by id
+* [33m2a486c1[m can display list theory in dashboard teacher
+* [33m90e5a23[m display list theories in dashboard teacher
+* [33m7fe1763[m can create thoery in dashboard teacher , but theory file notyet inserted in table db
+* [33mf16a643[m[33m ([m[1;33mtag: push.2[m[33m)[m prepare to insert theory in dashboard mentor
+* [33m2e8c1ae[m show data teacher in profile dashboard
+* [33m8ed5528[m create crud teacher subject & teacher class in dashboard school
+* [33m73cde83[m[33m ([m[1;33mtag: push.1[m[33m)[m can insert subject in dashboard school
+* [33mb184907[m display list absent and can absent in dashboard student
+* [33m654e63d[m display list absent and can absent in dashboard teacher
+* [33m255f7c9[m create file for validation
+* [33mfff15b8[m add menu icon in dashboard admin and fix auth context
+* [33m72588dc[m crete operation crud teacher absent in dashboard school
+* [33m7cd5064[m create operation crud student absent in dashboar school
+* [33m96c86df[m can create and read student in dashboard teacher
+* [33mb82dd0e[m show list classes in dahsboard teacher
+* [33m0a410e6[m create menu for dashboard teacher
+* [33m2def4bf[m create crud operation in dashboard school
+* [33mdd8aeb4[m can crud data list classes in dashboard scool
+* [33m0ed24a3[m can create , read , and delete course in dashboard school
+* [33mddce126[m can create read delete class grade & sub classes in admin
+* [33m988fe0f[m create feature login
+* [33m7a841f8[m create operation crud in dashboard admin
+* [33m11064b9[m can crud admin in dashboard admin
+* [33mb5c840f[m create pages in dashboard student
+* [33mf25f0be[m create context for Dashboard Teacher and fix bugs
+* [33m4c45fe1[m add context in dashboard school menu student , teacher , profile
+* [33m7ac4e6c[m create some feature in dashboard admin
+* [33me2b98b3[m create pages in dashboard teacher
+* [33mec4ddf2[m complete create dashboard school
+* [33mf7af5f4[m complete create dashboard admin
+* [33mf3aebfc[m create layout for dashboard
+* [33meebe01f[m will make page dashboard
+* [33m7345640[m create this directory become git repository

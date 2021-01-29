@@ -1,0 +1,242 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  width: 6px;
+  background: #F9F9F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bfc9d6;
+  border-radius: 10px;
+}
+
+/* Theme */
+.bg-gray {
+	@apply bg-gray-500 transition duration-200;
+}
+
+.bg-gray:hover , .bg-gray:focus {
+	@apply bg-gray-600;
+}
+
+.bg-blue {
+	@apply bg-blue-400 transition duration-200;
+}
+
+.bg-blue:hover , .bg-blue:focus {
+	@apply bg-blue-600;
+}
+
+.bg-indigo {
+	@apply bg-indigo-400 transition  duration-200;
+}
+
+.bg-indigo:hover , .bg-indigo:focus {
+	@apply bg-indigo-600;
+}
+
+.bg-red {
+	@apply bg-red-400 transition duration-200;
+}
+.bg-red:hover , .bg-red:focus {
+	@apply bg-red-600;
+}
+
+.bg-purple {
+	@apply bg-purple-400 transition duration-200;
+}
+
+.bg-purple:hover , .bg-purple:focus {
+	@apply bg-purple-600;
+}
+
+.bg-yellow {
+	@apply bg-yellow-400 transition duration-200;
+}
+
+.bg-yellow:hover , .bg-yellow:focus {
+	@apply bg-yellow-600;
+}
+
+.bg-teal {
+	@apply bg-teal-400 transition duration-200;
+}
+
+.bg-teal:hover , .bg-teal:focus {
+	@apply bg-teal-600;
+}
+
+button:focus {
+	@apply outline-none;
+}
+
+.sidebar {
+	@apply bg-white w-1/4 h-screen fixed top-0 left-0 shadow-md overflow-auto z-50;
+}
+
+.sidebar-brand {
+	@apply text-center mt-4;
+}
+
+.sidebar-icon {
+	@apply h-6 w-6 inline-block mr-2 absolute mt-1;
+}
+
+.sidebar-menu {
+	@apply block w-full py-3 px-4 uppercase pl-6 text-gray-600 text-left transition duration-200 transform;
+}
+
+.sidebar-menu:hover {
+	@apply bg-gray-200 translate-x-1;
+}
+
+.sidebar-menu-logout {
+	@apply block w-full py-3 px-4 uppercase pl-6 text-red-400 text-left transition duration-200 transform cursor-pointer;
+}
+
+.sidebar-menu-logout:hover {
+	@apply bg-red-100 translate-x-1;
+}
+
+.sidebar-menu:focus {
+	@apply outline-none;
+}
+
+.sidebar-menu-active {
+	@apply block w-full py-3 px-4 uppercase pl-6 text-indigo-500 bg-indigo-100 text-left font-semibold border-l-4 border-indigo-500;
+}
+
+
+.sidebar-collapse {
+	@apply h-0 overflow-hidden bg-gray-100;
+	transition: .3s ease-in-out;
+}
+
+.sidebar-collapse .sidebar-menu {
+	text-indent: 15px;
+}
+
+.brand-logo {
+	@apply h-8 inline-block mr-2;
+}
+
+.brand-text {
+	@apply font-bold text-xl text-blue-700;
+}
+
+.user-section {
+	@apply py-4 text-center border-b-2 border-gray-200;
+}
+
+.user-profile {
+	@apply w-32 h-32 object-cover rounded-full m-auto mb-4 shadow-lg transform;
+}
+
+.username {
+	@apply text-xl capitalize text-orange-600;
+}
+
+.user-role {
+	@apply text-sm text-gray-500 lowercase;	
+}
+
+.button {
+	@apply text-white font-bold uppercase py-2 px-6 rounded mt-4;
+}
+
+.card {
+	@apply rounded p-4 shadow-md bg-white my-4 text-gray-600 w-full;
+}
+
+.card-custom {
+	@apply p-4 bg-white shadow-lg rounded;
+}
+
+.table-lg {
+	@apply bg-white w-full shadow-lg rounded overflow-hidden my-4;
+}
+
+.badge {
+	@apply text-white pb-1 px-4 text-sm font-bold rounded mx-1;
+}
+
+.button-header {
+	@apply rounded py-2 px-6 font-bold bg-pink-400 text-white inline-block mt-8 mb-1 shadow-md transition duration-200;
+}
+
+.button-header:hover {
+	@apply bg-pink-600;
+}
+
+.form-group {
+	@apply my-2;
+}
+
+.form-label {
+	@apply block mx-1 text-gray-600 mt-4 mb-2;
+}
+
+.form-input {
+	@apply py-2 px-4 rounded shadow-xs w-full text-gray-600;
+}
+
+.form-input:focus {
+	@apply outline-none shadow-outline;
+}
+
+.table-primary {
+	@apply bg-white w-full shadow-lg rounded overflow-hidden my-4;
+}
+
+.dashboard-title {
+	@apply bg-white block w-2/5 py-2 px-6 rounded uppercase shadow-md text-pink-400 border-l-4 border-pink-400 flex flex-row;
+}
+
+.dashboard-title div:nth-child(1) {
+	@apply w-1/5 flex justify-center items-center;
+}
+
+.dashboard-title div:nth-child(1) svg {
+	@apply w-4/5 mr-3;
+}
+
+.dashboard-title div:nth-child(2) {
+	@apply w-4/5;
+}
+
+.invalid-feedback {
+	@apply text-sm text-red-400 font-semibold;
+}
+
+.progressbar {
+	@apply bg-gray-300 font-semibold rounded text-center overflow-hidden my-2 h-6 transition duration-200;
+}
+
+.progress-value {
+	@apply bg-blue-400 h-full transition duration-200;
+}
+
+.progress-status {
+	@apply absolute w-full text-center left-0;
+}
+
+.col-badge {
+	@apply flex flex-row justify-center items-center;
+}
+
+.badge-icon {
+	@apply w-8 h-8 inline-block rounded-full p-1 text-white my-1 flex items-center justify-center mx-2;
+}
+
+.badge-icon svg {
+	@apply w-5;
+}

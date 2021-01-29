@@ -1,0 +1,35 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateTryoutSAnswersTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('tryout_s_answers', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('result_id');
+            $table->foreignId('question_id');
+            $table->foreignId('answer_id');
+            $table->enum('correct' , ['true' , 'false']);
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('tryout_s_answers');
+    }
+}

@@ -1,0 +1,4 @@
+[1114/132827.354:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1114/134109.335:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\latif\AppData\Local\Google\Chrome Beta\User Data\Crashpad\attachments\d2616039-df6d-46a8-9086-9837170e27f7: The system cannot find the path specified. (0x3)
+[1114/145102.396:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1124/195937.811:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

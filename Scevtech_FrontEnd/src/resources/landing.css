@@ -1,0 +1,41 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  width: 6px;
+  background: #F9F9F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bfc9d6;
+  border-radius: 10px;
+}
+
+.section {
+	@apply p-8 md:p-16;
+}
+
+.card {
+	@apply bg-white shadow w-1/4  rounded overflow-hidden transition-all  transform;
+}
+
+.card-img {
+	@apply h-56 w-full object-cover transition;
+}
+
+.card-body {
+	@apply py-4 px-4 pb-6;
+}
+
+.card-footer {
+	@apply flex flex-row mt-2;
+}
